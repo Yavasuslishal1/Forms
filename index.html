@@ -11,7 +11,7 @@
     <h2>Задание 1</h2>
     <FORM >
         <P> Фамилия: <INPUT TYPE=text SIZE=30> <BR> Адрес: <INPUT TYPE=TEXT SIZE=30> </P>
-        <P> Пол: <INPUT TYPE=RADIO> М <INPUT TYPE=RADIO> Ж </P>
+        <P> Пол: <INPUT TYPE=RADIO name="option" value="option1"> М <INPUT TYPE=RADIO name="option" value="option2"> Ж </P>
     </FORM>
 
     <h2>Задание 2</h2>  
@@ -49,8 +49,8 @@
         <input type="text" placeholder="Имя"> <br>
         <input type="text" placeholder="Отчество"> <br>
         <p>Пол:</p>
-        М<input type="radio">
-        Ж<input type="radio">
+        М<input type="radio" name="option" value="option1">
+        Ж<input type="radio" name="option" value="option2">
         <p>Знание иностранного языка</p>
         <input type="checkbox">Анлийский<br>        
         <input type="checkbox">Немецкий<br> 
@@ -74,5 +74,21 @@
         </select>
         <p><input type="submit"><input type="reset"></p>
     </form>
+    <h2>Задание 7</h2>
+    <form class="task7">
+        <h3>Бланк заказа</h3>
+        <input type="text" placeholder="Фамилия"> <br>
+        <input type="text" placeholder="Адрес"> <br>
+        <input type="text" placeholder="Телефон">
+        <p>Наши Товары</p>
+        <input type="checkbox"><img src="keyboard.jpg">        
+        <input type="checkbox"><img src="screen.jpg">  
+        <input type="checkbox"><img src="mouse.jpg">
+        <p>Сумма которой вы располагаете</p>
+        <input type="radio" name="option" value="option1">10к нищий (не пиши нам)
+        <input type="radio" name="option" value="option2">50к мужик 
+        <input type="radio" name="option" value="option3">арабский шейх (пж позвони)
+        <p><input type="submit"><input type="reset"></p>
+    </form>    
 </body>
 </html>
